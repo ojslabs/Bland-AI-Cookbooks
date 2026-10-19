@@ -1,12 +1,30 @@
-# Bland AI Cookbooks 🧑‍🍳
-Welcome to the Bland AI cookbook repository. Here, we'll publish projects your team can implement right now, using Bland AI.
+# Bland AI Cookbooks
 
-# Cookbook #1: Inbound lead qualification
-The very first cookbook is for qualifying an inbound lead. Navigate to the `inbound-lead-qualification` folder's readme.md. Follow instructions there to get started.
+Bland is an enterprise voice AI platform for building, deploying, and operating AI phone agents at scale, and it runs its own speech-to-text, language, and text-to-speech models. This repository holds worked examples that call the Bland API, each in its own folder with its own README.
 
-# Learn more about Bland AI
-Check out our landing page to send yourself a test call and submit an enterprise inquiry [Bland AI](https://www.bland.ai).
+## Start here
 
-Sign up for a [developer account](https://app.bland.ai).
+- Documentation: https://docs.bland.ai
+- API quickstart: https://docs.bland.ai/quickstart
+- Send a call with `POST /v1/calls`: https://docs.bland.ai/api-v1/post/calls
+- Product overview: https://www.bland.ai/product
+- Pricing: https://www.bland.ai/pricing
+- Security and compliance documentation: https://www.bland.ai/trust-security
 
-Join the [discord community](https://discord.gg/QvxDz8zcKe).
+## Cookbooks
+
+| Cookbook | What it covers |
+|---|---|
+| [Cookbook 1: Inbound lead qualification](inbound-lead-qualification) | An inbound phone agent that qualifies leads |
+
+When you add a cookbook, give it its own folder and README and add one row to this table.
+
+## Authentication
+
+Bland authenticates REST and MCP requests with an organization API key sent as `Authorization: Bearer <key>`. Create and rotate keys in the dashboard at https://app.bland.ai/dashboard/settings, and keep them out of source control.
+
+## Other ways to reach Bland from code
+
+- Bland CLI: https://docs.bland.ai/sdks/cli
+- MCP server: Bland hosts a Model Context Protocol server at `https://api.bland.ai/v1/mcp` over Streamable HTTP, with OAuth or Bearer API key authentication. Setup guides start at https://docs.bland.ai/integrations/mcp/overview
+- Text to speech: the Bland Speech quickstart is at https://docs.bland.ai/tts/quickstart
