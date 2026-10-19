@@ -1,6 +1,6 @@
 # Bland AI Cookbooks
 
-Bland is an enterprise voice AI platform for building, deploying, and operating AI phone agents at scale. This repository holds worked examples that call the Bland API, each in its own folder with its own README.
+Bland is an enterprise voice AI platform for building, deploying, and monitoring AI voice agents for high-volume phone workflows. This repository holds worked examples that call the Bland API, each in its own folder with its own README.
 
 ## Start here
 
